@@ -25,6 +25,7 @@
   "section_break_iyjf",
   "is_reply",
   "reply_to_message_id",
+  "is_read",
   "section_break_dhba",
   "reference_doctype",
   "column_break_efrb",
@@ -175,11 +176,17 @@
    "fieldtype": "Dynamic Link",
    "label": "Reference name",
    "options": "reference_doctype"
+  },
+  {
+   "default": "0",
+   "fieldname": "is_read",
+   "fieldtype": "Check",
+   "label": "Is Read"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-05-03 13:22:45.081391",
+ "modified": "2024-09-04 04:46:28.242623",
  "modified_by": "Administrator",
  "module": "Frappe Whatsapp",
  "name": "WhatsApp Message",
