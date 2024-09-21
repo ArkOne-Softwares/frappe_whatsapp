@@ -132,7 +132,7 @@
    "fieldname": "content_type",
    "fieldtype": "Select",
    "label": "Content Type",
-   "options": "\ntext\ndocument\nimage\nvideo\naudio\nflow\nreaction\nlocation\ncontact",
+   "options": "\ntext\ndocument\nimage\nvideo\naudio\nflow\nreaction\nlocation\ncontact\nbutton",
    "reqd": 1
   },
   {
